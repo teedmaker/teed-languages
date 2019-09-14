@@ -1,6 +1,8 @@
 # teed-languages
 
 Este é mais um experimento do que poderia ser feito quando o assunto é internacionalização de sites.
+O sistema busca as linguagens preferidas do cliente através da variável `$_SERVER["HTTP_ACCEPT_LANGUAGE"]` do `$_SERVER["HTTP_ACCEPT_LANGUAGE"]`.
+Caso não encontre valores, ele usa a linguagem definida como default.
 
 Não é a melhor forma de se fazer, mas é uma forma que encontrei.
 
